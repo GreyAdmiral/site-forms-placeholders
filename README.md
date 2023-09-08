@@ -1,4 +1,4 @@
-# site-color-schemes
+# site-forms-placeholders
 
 > Plugin activating the dynamics of the placeholders in the specified form (block).
 
