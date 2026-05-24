@@ -7,13 +7,13 @@
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.3/dist/phone-mask-native.min.js"></script>
 ```
 
 or
 
 ```html
-<script src="https://unpkg.com/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+<script src="https://unpkg.com/site-forms-placeholders@1.1.3/dist/phone-mask-native.min.js"></script>
 ```
 
 #### Import
@@ -48,24 +48,24 @@ A selector of forms or a blocks inside of which must be activated by the dynamic
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.3/dist/phone-mask-native.min.js"></script>
 
 ...
 
 <script>
-   new siteFormsPlaceholders();
+   siteFormsPlaceholders();
 </script>
 ```
 
 or
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.3/dist/phone-mask-native.min.js"></script>
 
 ...
 
 <script>
-   new siteFormsPlaceholders('your-selector');
+   siteFormsPlaceholders('your-selector');
 </script>
 ```
 
