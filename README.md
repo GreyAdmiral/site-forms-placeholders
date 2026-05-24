@@ -4,19 +4,36 @@
 
 ## Install
 
+#### CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+```
+
+or
+
+```html
+<script src="https://unpkg.com/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+```
+
+#### Import
+
+Run the command in the console
+
 ```shell
 npm i site-forms-placeholders
 ```
 
-## Import
+Perform the import
 
 ```javascript
-const placeholder = require("site-forms-placeholders");
+const siteFormsPlaceholders = require('site-forms-placeholders');
 ```
+
 or
 
 ```javascript
-import placeholder from 'site-forms-placeholders'
+import siteFormsPlaceholders from 'site-forms-placeholders';
 ```
 
 ## Option (selector)
@@ -28,18 +45,44 @@ A selector of forms or a blocks inside of which must be activated by the dynamic
 
 ## Usage
 
-```javascript
-const placeholder = require("site-forms-placeholders");
+#### CDN
 
-placeholder("your-selector");
+```html
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+
+...
+
+<script>
+   new siteFormsPlaceholders();
+</script>
+```
+
+or
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.2/dist/phone-mask-native.min.js"></script>
+
+...
+
+<script>
+   new siteFormsPlaceholders('your-selector');
+</script>
+```
+
+#### Import
+
+```javascript
+const siteFormsPlaceholders = require('site-forms-placeholders');
+
+siteFormsPlaceholders('your-selector');
 ```
 
 or
 
 ```javascript
-const placeholder = require("site-forms-placeholders");
+const siteFormsPlaceholders = require('site-forms-placeholders');
 
-placeholder();
+siteFormsPlaceholders();
 ```
 
 ## Note
@@ -50,14 +93,14 @@ You can not indicate the selector if the forms (blocks) has an attribute data-pl
 
 ```html
 <form action="#" data-placeholder-form>
-	...
-	<input placeholder="The text of the placeholder 1">
-	...
-	<input placeholder="The text of the placeholder 2">
-	...
-	<input placeholder="The text of the placeholder 3">
-	...
-	<textarea placeholder="The text of the placeholder for textarea"></textarea>
-	...
+   ...
+   <input placeholder="The text of the placeholder 1" />
+   ...
+   <input placeholder="The text of the placeholder 2" />
+   ...
+   <input placeholder="The text of the placeholder 3" />
+   ...
+   <textarea placeholder="The text of the placeholder for textarea"></textarea>
+   ...
 </form>
 ```
