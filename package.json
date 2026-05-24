@@ -1,16 +1,26 @@
 {
-	"name": "site-forms-placeholders",
-	"description": "Plugin activating the dynamics of the placeholders in the specified form (block)",
-	"version": "1.0.2",
-	"homepage": "https://github.com/GreyAdmiral",
-	"repository": "git://github.com/GreyAdmiral/site-forms-placeholders.git",
-	"author": "Binarion (https://greyadmiral.github.io/)",
-	"main": "./index.js",
-	"keywords": [
-		"plugin",
-		"form",
-		"placeholder",
-		"site-forms-placeholders"
-	],
-	"license": "MIT"
+   "name": "site-forms-placeholders",
+   "description": "Plugin activating the dynamics of the placeholders in the specified form (block)",
+   "version": "1.1.1",
+   "homepage": "https://github.com/GreyAdmiral",
+   "repository": "git://github.com/GreyAdmiral/site-forms-placeholders.git",
+   "author": "Binarion (https://greyadmiral.github.io/)",
+   "main": "dist/index.js",
+   "keywords": [
+      "plugin",
+      "form",
+      "placeholder",
+      "site-forms-placeholders"
+   ],
+   "license": "MIT",
+   "scripts": {
+      "build": "rollup -c"
+   },
+   "devDependencies": {
+      "@babel/preset-env": "^7.29.5",
+      "@rollup/plugin-babel": "^7.0.0",
+      "@rollup/plugin-commonjs": "^29.0.2",
+      "@rollup/plugin-terser": "^1.0.0",
+      "rollup": "^4.60.4"
+   }
 }
