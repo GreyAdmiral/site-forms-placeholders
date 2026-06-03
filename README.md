@@ -7,13 +7,13 @@
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.5/dist/phone-mask-native.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.6/dist/phone-mask-native.min.js"></script>
 ```
 
 or
 
 ```html
-<script src="https://unpkg.com/site-forms-placeholders@1.1.5/dist/phone-mask-native.min.js"></script>
+<script src="https://unpkg.com/site-forms-placeholders@1.1.6/dist/phone-mask-native.min.js"></script>
 ```
 
 #### Import
@@ -48,7 +48,7 @@ A selector of forms or a blocks inside of which must be activated by the dynamic
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.5/dist/phone-mask-native.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.6/dist/phone-mask-native.min.js"></script>
 
 ...
 
@@ -60,7 +60,7 @@ A selector of forms or a blocks inside of which must be activated by the dynamic
 or
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.5/dist/phone-mask-native.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.6/dist/phone-mask-native.min.js"></script>
 
 ...
 
