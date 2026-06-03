@@ -6,6 +6,9 @@
    "repository": "git://github.com/GreyAdmiral/site-forms-placeholders.git",
    "author": "Binarion (https://greyadmiral.github.io/)",
    "main": "dist/index.js",
+   "files": [
+      "dist"
+   ],
    "keywords": [
       "plugin",
       "form",
@@ -14,7 +17,7 @@
    ],
    "license": "MIT",
    "scripts": {
-      "build": "rollup -c"
+      "build": "rm -rf dist && rollup -c"
    },
    "devDependencies": {
       "@babel/preset-env": "^7.29.5",
