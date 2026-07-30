@@ -7,7 +7,7 @@ export default [
       input: 'src/main.js',
       output: [
          {
-            file: 'dist/phone-mask-native.js',
+            file: 'dist/site-forms-placeholders.js',
             format: 'es',
          },
          {
@@ -20,7 +20,7 @@ export default [
       input: 'src/main.js',
       output: [
          {
-            file: 'dist/phone-mask-native.min.js',
+            file: 'dist/site-forms-placeholders.min.js',
             format: 'iife',
             name: 'siteFormsPlaceholders',
          },
