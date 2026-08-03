@@ -7,13 +7,13 @@
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.7/dist/site-forms-placeholders.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
 ```
 
 or
 
 ```html
-<script src="https://unpkg.com/site-forms-placeholders@1.1.7/dist/site-forms-placeholders.min.js"></script>
+<script src="https://unpkg.com/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
 ```
 
 #### Import
@@ -39,16 +39,16 @@ import siteFormsPlaceholders from 'site-forms-placeholders';
 ## Option (selector)
 
 Type: `string`<br>
-Default: `[data-placeholder-form]`<br>
+Default: `undefined`<br>
 
-A selector of forms or a blocks inside of which must be activated by the dynamics of the playercholders.
+Selector of forms or blocks within which the dynamics of playerholders should be activated. if the attribute is not specified or left empty, the playerholder dynamics will be applied to all forms on the page.
 
 ## Usage
 
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.7/dist/site-forms-placeholders.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
 
 ...
 
@@ -60,7 +60,7 @@ A selector of forms or a blocks inside of which must be activated by the dynamic
 or
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.1.7/dist/site-forms-placeholders.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
 
 ...
 
@@ -92,7 +92,7 @@ You can not indicate the selector if the forms (blocks) has an attribute data-pl
 #### Example:
 
 ```html
-<form action="#" data-placeholder-form>
+<form action="#" id="my-form">
    ...
    <input placeholder="The text of the placeholder 1" />
    ...
