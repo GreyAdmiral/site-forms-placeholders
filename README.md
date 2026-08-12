@@ -7,13 +7,13 @@
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.1/dist/site-forms-placeholders.min.js"></script>
 ```
 
 or
 
 ```html
-<script src="https://unpkg.com/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
+<script src="https://unpkg.com/site-forms-placeholders@1.2.1/dist/site-forms-placeholders.min.js"></script>
 ```
 
 #### Import
@@ -48,7 +48,7 @@ Selector of forms or blocks within which the dynamics of playerholders should be
 #### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.1/dist/site-forms-placeholders.min.js"></script>
 
 ...
 
@@ -60,7 +60,7 @@ Selector of forms or blocks within which the dynamics of playerholders should be
 or
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.0/dist/site-forms-placeholders.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/site-forms-placeholders@1.2.1/dist/site-forms-placeholders.min.js"></script>
 
 ...
 

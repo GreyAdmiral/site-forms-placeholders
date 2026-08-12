@@ -19,10 +19,8 @@ function main (selector) {
       e.stopPropagation();
       const target = /** @type {HTMLInputElement | HTMLTextAreaElement} */ (e.target);
 
-      if (target && target.hasAttribute('placeholder')) {
-         if (target.placeholder) {
-            [placeholder, target.placeholder] = [target.placeholder, placeholder];
-         }
+      if (target && target.hasAttribute('placeholder') && target.placeholder) {
+         [placeholder, target.placeholder] = [target.placeholder, placeholder];
       }
    }
 
@@ -33,10 +31,8 @@ function main (selector) {
       e.stopPropagation();
       const target = /** @type {HTMLInputElement | HTMLTextAreaElement} */ (e.target);
 
-      if (target && target.hasAttribute('placeholder')) {
-         if (placeholder) {
-            [target.placeholder, placeholder] = [placeholder, target.placeholder];
-         }
+      if (target && target.hasAttribute('placeholder') && placeholder) {
+         [target.placeholder, placeholder] = [placeholder, target.placeholder];
       }
    }
 }
