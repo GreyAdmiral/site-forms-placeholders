@@ -6,8 +6,10 @@
  * @param {string} [selector]
  */
 function main (selector) {
+   const EMPTY_PLACEHOLDER = '\r';
    const forms = selector ? document.querySelectorAll(selector) : document.forms;
-   let placeholder = '\r';
+   /** @type {string | undefined} */
+   let placeholder;
 
    for (const form of forms) {
       form.addEventListener('focusin', focusInHandler);
@@ -21,8 +23,8 @@ function main (selector) {
       e.stopPropagation();
       const target = /** @type {HTMLInputElement | HTMLTextAreaElement} */ (e.target);
 
-      if (target && target.hasAttribute('placeholder') && target.placeholder) {
-         [placeholder, target.placeholder] = [target.placeholder, placeholder];
+      if (target && target.hasAttribute('placeholder')) {
+         [placeholder = EMPTY_PLACEHOLDER, target.placeholder = EMPTY_PLACEHOLDER] = [target.placeholder, placeholder];
       }
    }
 
@@ -33,8 +35,8 @@ function main (selector) {
       e.stopPropagation();
       const target = /** @type {HTMLInputElement | HTMLTextAreaElement} */ (e.target);
 
-      if (target && target.hasAttribute('placeholder') && placeholder) {
-         [target.placeholder, placeholder] = [placeholder, target.placeholder];
+      if (target && target.hasAttribute('placeholder')) {
+         [target.placeholder = EMPTY_PLACEHOLDER, placeholder = EMPTY_PLACEHOLDER] = [placeholder, target.placeholder];
       }
    }
 }
