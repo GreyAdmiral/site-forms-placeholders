@@ -1,8 +1,8 @@
 {
    "name": "site-forms-placeholders",
    "description": "Plugin activating the dynamics of the placeholders in the specified form (block)",
-   "version": "1.2.2",
-   "homepage": "https://github.com/GreyAdmiral",
+   "version": "1.2.3",
+   "homepage": "https://github.com/GreyAdmiral/site-forms-placeholders",
    "repository": "git://github.com/GreyAdmiral/site-forms-placeholders.git",
    "author": "Binarion (https://greyadmiral.github.io/)",
    "main": "dist/index.js",
