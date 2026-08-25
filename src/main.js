@@ -10,8 +10,12 @@ export default function (selector) {
    let placeholder;
 
    for (const form of forms) {
-      form.addEventListener('focusin', handler);
-      form.addEventListener('focusout', handler);
+      const sample = form.querySelector(':scope > [placeholder]');
+
+      if (sample) {
+         form.addEventListener('focusin', handler);
+         form.addEventListener('focusout', handler);
+      }
    }
 
    /**
